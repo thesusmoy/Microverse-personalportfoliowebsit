@@ -1,0 +1,191 @@
+body{
+    margin: 0;
+}
+#navbar {
+  text-decoration: none;
+  color: white;
+  font-family: 'Exo 2', sans-serif;
+  font-size: xx-large;
+  text-align: end;
+  background: linear-gradient(30deg, rgb(8, 77, 179) ,black);
+  height: auto;
+  width: 100%;
+  padding: 20px;
+  border-bottom: 3px solid purple;
+  margin: 0px;
+  display: inline;
+}
+#navbar a:link{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 10px;
+    height: auto;
+}
+#navbar a:hover{
+    /* background-color: rgb(134, 131, 131); */
+    border-bottom: 5px solid rgb(134, 131, 131);
+    border-left: 5px solid rgb(134, 131, 131);
+    
+    border-right: 1px solid rgb(134, 131, 131);
+    border-top: 1px solid rgb(134, 131, 131);
+
+
+
+    border-radius: 10px;
+}
+#navbar a:active{
+    color: blue;
+}
+#navbar a:visited{
+    color: white;
+}
+#welcome-section{
+    margin: 0;
+    height: auto;
+    background: linear-gradient(blue, black, purple);
+}
+    h1{
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 60px;
+    }
+@media screen and (max-width: 700px){
+    h1{
+        width: 100%;
+        font-family: sans-serif;
+    }
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+    width:100%;
+    border-radius: 0px;
+  }
+    #fist:hover{
+        color: brown;
+    }
+    #first, #proj{
+        color: white;
+        font-size: 40px;
+        font-weight: bolder;
+        font-family: Arial ;
+    }
+    #second{
+        font-family: cursive;
+        color: rgb(200, 0, 255);
+        font-weight: 100;
+        font-size: xx-large;
+    }
+    #projects{
+        margin: 0px;
+        background: linear-gradient(30deg, #ad02f1, #1196e4, #ad02f1);
+        padding-bottom: 30px;
+        
+    }
+    #proj{
+        text-align: center;
+        font-size: xx-large;
+    }
+    #tile{
+        background-color: black;
+        font-family: sans-serif;
+        display: grid;
+        grid-gap: 10px;
+        min-height: 300px;
+        width: 100%;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        justify-content: center;
+    }
+    #extra-info{
+        font-size: 30px;
+        margin-left: 100px;
+        margin-right: 100px;
+        font-family: sans-serif;
+        justify-content: left;
+        color:rgb(200, 198, 198);
+        
+    }
+    .project-tile{
+        margin: 10px;
+    }
+    figcaption a{
+        text-decoration: none;
+        font-size: x-large;
+        text-align: center;
+        color: whitesmoke;
+        display: block;
+        width: 100%;
+        height: 50px;
+        background-color:rgb(207, 13, 251);
+       
+    }
+    figcaption a:hover{
+        background-color: rgb(106, 23, 241);
+        color: rgb(249, 245, 245);
+    }
+    #show {
+        display: block;
+        text-align: center;
+        font-size: xx-large;
+        
+        margin-left: auto;
+        margin-right: auto;
+        
+        
+        margin-top: 30px;
+    }
+    
+    #profile-link{
+        margin: 0px;
+        padding-bottom: 50px;
+        background: linear-gradient(-45deg, #EE7752, #65af34, #23A6D5, #23D5AB);
+        /* background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB); */
+    }
+    p{
+        padding-top: 50px;
+        font-weight: lighter;
+        font-size: 60px;
+        text-align: center;
+        color: whitesmoke;
+    }
+    .media{
+        
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        
+    }
+    li{
+        list-style: none;
+        margin: 10px 30px;
+        display: inline-block;
+        font-size: 20px;
+        padding: 20px 20px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        transition: .5s;
+    }
+    li a:hover{
+        color: white;
+        
+    }
+    .social{
+        font-weight: lighter;
+        font-size: large;
+        padding-top: 0px;
+        color: rgb(34, 32, 32);
+    }
+    .sticky {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: maroon;
+}
